@@ -14,7 +14,7 @@ def sub(a1,a2):
     Subtracts a2 from a1
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a2 - a1
     return toReturn
 
 def mult(a1,a2):
@@ -22,7 +22,7 @@ def mult(a1,a2):
     Multiplies a1 by a2
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 * a2
     return toReturn
 
 def div(a1,a2):
@@ -30,7 +30,7 @@ def div(a1,a2):
     Divides a1 by a2
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 / a2
     return toReturn
 
 def floorDiv(a1,a2):
@@ -38,7 +38,7 @@ def floorDiv(a1,a2):
     Divides a1 by a2 with remainder rounded down
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 % a2
     return toReturn
 
 def mod(a1,a2):
@@ -55,7 +55,7 @@ def exp(a1,a2):
     Returns the a1 to the a2 power (exponent)
     '''
     toReturn = 0
-    # add your code here
+    a1 ** a2
     return toReturn
 
 def orderOperations(a1,a2,a3):
@@ -64,7 +64,7 @@ def orderOperations(a1,a2,a3):
     i.e., changes normal order or operations 
     '''
     toReturn = 0
-    # add your code here
+    toReturn = (a1 + a2) * a3
     return toReturn
 
 def whichType(t):
