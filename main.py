@@ -38,7 +38,7 @@ def floorDiv(a1,a2):
     Divides a1 by a2 with remainder rounded down
     '''
     toReturn = 0
-    toReturn = a1 % a2
+    toReturn = a1 // a2
     return toReturn
 
 def mod(a1,a2):
@@ -47,7 +47,7 @@ def mod(a1,a2):
     e.g., mod(5,3) = 2, mod(15,5) = 0, mod(15,4) = 3
     '''
     toReturn = 0
-    # add your code here
+    toReturn = a1 % a2
     return toReturn
 
 def exp(a1,a2):
@@ -55,7 +55,7 @@ def exp(a1,a2):
     Returns the a1 to the a2 power (exponent)
     '''
     toReturn = 0
-    a1 ** a2
+    toReturn = a1 ** a2
     return toReturn
 
 def orderOperations(a1,a2,a3):
@@ -72,7 +72,7 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
-    # add your code here
+    toReturn = type(t)
     return toReturn
 
 def convertInt(i):
@@ -80,7 +80,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    # add your code here
+    toReturn = int(i)
     return toReturn
 
 def convertFloat(f):
@@ -88,7 +88,7 @@ def convertFloat(f):
     Converts f to a float
     '''
     toReturn = 0.0
-    # add your code here
+    toReturn = float(f)
     return toReturn
 
 def convertStr(s):
@@ -96,7 +96,7 @@ def convertStr(s):
     Converts s to a string
     '''
     toReturn = ''
-    # add your code here
+    toReturn = str(s)
     return toReturn
 
 def concat(s1,s2):
@@ -104,7 +104,7 @@ def concat(s1,s2):
     Concatenates (string) s2 to the end of s1
     '''
     toReturn = ''
-    # add your code here
+    toReturn = s1 + s2
     return toReturn
 
 def whichChar(s,a):
@@ -112,7 +112,7 @@ def whichChar(s,a):
     Returns the character at position a of string s
     '''
     toReturn = ''
-    # add your code here
+    toReturn = s[a:]
     return toReturn
 
 def substr(s,a1,a2):
@@ -120,7 +120,7 @@ def substr(s,a1,a2):
     Returns a substring of s (from position a1 to a2)
     '''
     toReturn = ''
-    # add your code here
+    toReturn = s[a1:a2]
     return toReturn
 
 def reverseStr(s):
@@ -128,7 +128,7 @@ def reverseStr(s):
     Returns a string which is a reversed version of s
     '''
     toReturn = ''
-    # add your code here
+    toReturn = s[::-1]
     return toReturn
 
 def isIn(l,e):
@@ -136,7 +136,7 @@ def isIn(l,e):
     Returns true if element e is in list l
     '''
     toReturn = ''
-    # add your code here
+    # I really don't know
     return toReturn
 
 def randomElement(l):
@@ -152,7 +152,7 @@ def randomNumber():
     Returns a random number between 1000 and 9999
     '''
     toReturn = 0
-    # add your code here
+    toReturn = random.randint(1000, 9999)
     return toReturn
 
 def reverseList(l):
